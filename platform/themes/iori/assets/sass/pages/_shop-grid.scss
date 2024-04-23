@@ -1,0 +1,120 @@
+.list-categories {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+
+    li {
+        display: inline-block;
+        padding: 0px 5px;
+        margin-bottom: 10px;
+    }
+}
+
+.banner-shop-grid {
+    padding: 120px 0px;
+    text-align: center;
+}
+
+.box-banner-shop-grid {
+    position: relative;
+    background-image: url(../imgs/page/shop/bg-banner2.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    &::before {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        content: "";
+        width: 549px;
+        height: 377px;
+        background: url(../imgs/page/shop/bg-banner.png) no-repeat top left;
+        background-size: contain;
+    }
+}
+
+.filter-link {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    margin-right: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+
+    &.btn-grid {
+        background-image: url(../imgs/page/shop/grid.svg);
+
+        &:hover {
+            background-image: url(../imgs/page/shop/grid-active.svg);
+        }
+    }
+
+    &.btn-list {
+        background-image: url(../imgs/page/shop/list.svg);
+
+        &:hover {
+            background-image: url(../imgs/page/shop/list-active.svg);
+        }
+    }
+
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+.dropdown-sort {
+    .btn {
+        padding: 16px 44px 16px 16px;
+        border: 1px solid $color-gray-80;
+        background-image: url(../imgs/page/shop/arrow-down.svg);
+        background-repeat: no-repeat;
+        background-position: right 15px center;
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+    .dropdown-menu {
+        padding: 0px;
+        border: 1px solid $color-gray-80;
+    }
+
+    .dropdown-item {
+        padding: 10px 15px;
+        color: $color-gray-500;
+    }
+
+    .dropdown-item.active, .dropdown-item:active, .dropdown-item:hover {
+        background-color: $color-gray-80;
+    }
+}
+
+.box-sale {
+    background-color: $color-gray-60;
+    padding: 40px 30px;
+    position: relative;
+    margin-bottom: 30px;
+
+    &.box-sale-left {
+        padding-left: 45%;
+    }
+
+    .box-img-right {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .box-img-left {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+}

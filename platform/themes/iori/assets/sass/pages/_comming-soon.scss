@@ -1,0 +1,30 @@
+footer.footer-4 {
+    display: block;
+    width: 100%;
+    height: 190px;
+    background: url(../imgs/page/coming/bg-wave.png) no-repeat top center;
+    background-size: auto 100%;
+}
+
+.box-notify-me {
+    position: relative;
+
+    .inner-notify-me {
+        position: relative;
+        border: 1px solid $color-gray-80;
+        border-radius: 8px;
+        padding: 9px 10px;
+
+        .form-control {
+            border: 0px;
+            height: 48px;
+        }
+
+        .btn-brand-1 {
+            position: absolute;
+            top: 9px;
+            right: 10px;
+            padding: 10px 24px 12px 24px;
+        }
+    }
+}

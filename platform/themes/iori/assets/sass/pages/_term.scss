@@ -1,0 +1,55 @@
+.box-bg-term {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 450px;
+    z-index: 1;
+    background-color: $background-bg-7;
+    background-image: url(../imgs/page/term/bg-right.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    overflow: hidden;
+
+    &:before {
+        content: "";
+        height: 250px;
+        width: 176px;
+        position: absolute;
+        bottom: -80px;
+        left: 0px;
+        background-image: url(../imgs/page/term/bg-left.png);
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: contain;
+    }
+}
+
+.content-term {
+    position: relative;
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.list-terms {
+    list-style: decimal;
+    padding-left: 20px;
+    margin-bottom: 40px;
+
+    li {
+        margin-bottom: 0px;
+
+        a {
+            font-size: 14px;
+            color: $color-gray-500;
+            line-height: 32px;
+
+            &:hover {
+                color: $color-success;
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+.box-image-detail {
+    position: relative;
+}
+
+.btn {
+    &.btn-apply {
+        color: $color-white;
+
+        svg {
+            color: $color-white;
+        }
+    }
+}
+
+.content-detail {
+    margin-top: -90px;
+    position: relative;
+    z-index: 2;
+}
+
+.box-detail-content {
+    background-color: $background-white;
+    border-radius: 16px;
+    border: 1px solid $color-gray-80;
+    padding: 50px 50px 20px 50px;
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-gray-500;
+        margin-bottom: 11px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 25px;
+        margin-top: 30px;
+    }
+
+    ul {
+        list-style: disc;
+        padding-left: 20px;
+
+        li {
+            font-size: 16px;
+            line-height: 32px;
+            color: $color-gray-500;
+        }
+    }
+}
+
+.box-info-bottom {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid $color-gray-80;
+    display: inline-block;
+    width: 100%;
+}
+
+.bd-grey-80 {
+    border-bottom-color: $color-gray-80 !important;
+}
+
+.item-job {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 24px;
+
+    .left-title {
+        min-width: 117px;
+        max-width: 117px;
+        width: 100%;
+
+        span {
+            font-size: 16px;
+            line-height: 24px;
+            color: $color-gray-500;
+            display: inline-block;
+            padding: 0px 0px 0px 25px;
+        }
+
+        .industry {
+            background: url(../imgs/page/job-detail/building.svg) no-repeat left center;
+        }
+
+        .salary {
+            background: url(../imgs/page/job-detail/salary.svg) no-repeat left center;
+        }
+
+        .jobtype {
+            background: url(../imgs/page/job-detail/job-type.svg) no-repeat left center;
+        }
+
+        .updated {
+            background: url(../imgs/page/job-detail/update.svg) no-repeat left center;
+        }
+
+        .joblevel {
+            background: url(../imgs/page/job-detail/job-level.svg) no-repeat left center;
+        }
+
+        .experience {
+            background: url(../imgs/page/job-detail/experience.svg) no-repeat left center;
+        }
+
+        .deadline {
+            background: url(../imgs/page/job-detail/deadline.svg) no-repeat left center;
+        }
+
+        .location {
+            background: url(../imgs/page/job-detail/location.svg) no-repeat left center;
+        }
+    }
+
+    .right-info {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-gray-900;
+    }
+}

@@ -1,0 +1,94 @@
+.no-bg-faqs {
+    .bg-faqs {
+        background: none;
+    }
+}
+
+.bg-plan-3 {
+    position: relative;
+
+    .container {
+        position: relative;
+        z-index: 3;
+    }
+
+    &::before {
+        background-image: url(../imgs/page/homepage1/bg-plan.png);
+        background-position: top left;
+        content: "";
+        height: 230px;
+        width: 230px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+    }
+
+    &:after {
+        content: "";
+        height: 68%;
+        width: 100%;
+        background-color: $color-gray-80;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+    }
+}
+
+.table-compare {
+    border-collapse: collapse;
+    border: 0px;
+    min-width: 800px;
+    width: 100%;
+
+    thead {
+        tr {
+            th {
+                background-color: $color-gray-80;
+                padding: 20px;
+                font-size: 16px;
+                line-height: 24px;
+                color: $color-brand-1;
+
+                &.color-success {
+                    color: $color-success;
+                }
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            td {
+                border-bottom: 1px solid $color-gray-80;
+                padding: 20px;
+                font-size: 16px;
+                line-height: 24px;
+                color: $color-gray-400;
+            }
+        }
+    }
+}
+
+.icon-18 {
+    height: 18px;
+}
+
+.icon-disable {
+    color: $color-gray-100;
+}
+
+.icon-enable {
+    color: $color-success;
+}
+
+.width-28 {
+    width: 28%;
+}
+
+.width-18 {
+    width: 18%;
+}

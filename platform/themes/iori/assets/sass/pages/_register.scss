@@ -1,0 +1,84 @@
+.box-register {
+    padding: 100px 130px 0px 0px;
+}
+
+.box-page-register {
+    border-bottom: 1px solid $color-gray-80;
+    padding-bottom: 110px;
+    position: relative;
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    &::before {
+        content: "";
+        height: 100%;
+        width: 41%;
+        background-color: $color-gray-60;
+        z-index: 1;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.line-register {
+    height: 8px;
+    display: inline-block;
+    width: 100%;
+    background: url(../imgs/page/register/line.png) no-repeat top left;
+    background-size: contain;
+}
+
+.icon-password {
+    background-image: url(../imgs/page/register/password.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    padding-right: 40px;
+}
+
+.icon-name {
+    background-image: url(../imgs/page/register/name.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    padding-right: 40px;
+}
+
+.box-steps-small {
+    padding-top: 220px;
+    padding-right: 150px;
+    padding-left: 90px;
+
+    .item-number {
+        margin-bottom: 30px;
+        cursor: pointer;
+
+        .num-ele {
+            width: 48px;
+            height: 48px;
+            max-width: 48px;
+            min-width: 48px;
+            line-height: 48px;
+            font-size: 26px;
+        }
+
+        .info-num {
+            h5 {
+                margin-bottom: 8px !important;
+            }
+
+            .font-md {
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+
+        &:hover, &.active {
+            .num-ele {
+                background-color: $color-success;
+            }
+        }
+    }
+}

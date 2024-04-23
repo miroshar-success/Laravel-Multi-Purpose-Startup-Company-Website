@@ -1,0 +1,87 @@
+.box-banner-6 {
+    position: relative;
+    width: 100%;
+    text-align: left;
+
+    &::before {
+        content: "";
+        height: 620px;
+        width: 620px;
+        background-color: $color-brand-2;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -140px;
+        left: -15px;
+        z-index: 1;
+    }
+
+    .img-main {
+        position: relative;
+        z-index: 3;
+        display: block;
+        max-width: 90%;
+    }
+
+    .img-testimonials-1 {
+        position: absolute;
+        bottom: 210px;
+        left: -120px;
+        z-index: 2;
+    }
+
+    .img-testimonials-2 {
+        position: absolute;
+        bottom: 20px;
+        right: 0px;
+        z-index: 4;
+    }
+}
+
+.banner-6 {
+    overflow: hidden;
+    background-color: $color-gray-60;
+}
+
+.box-banner-right-home6 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.header-home6 {
+    background-color: $color-gray-60;
+    border-bottom: 0px;
+}
+
+.lists-logo {
+    display: flex;
+    align-content: space-between;
+
+    li {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+
+        img {
+            max-width: 110px;
+            display: inline;
+        }
+    }
+}
+
+.box-author-1 {
+    position: absolute;
+    top: -120px;
+    left: -190px;
+}
+
+.box-author-2 {
+    position: absolute;
+    top: 10%;
+    right: -210px;
+}
+
+.box-author-3 {
+    position: absolute;
+    top: 50%;
+    left: -260px;
+}

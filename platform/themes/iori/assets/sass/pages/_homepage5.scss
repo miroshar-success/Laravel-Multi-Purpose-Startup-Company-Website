@@ -1,0 +1,150 @@
+.header-home5 {
+    &.header {
+        border-bottom: 0px;
+        background-color: $color-brand-1;
+
+        .main-menu {
+            > li {
+                > a {
+                    color: $color-white;
+
+                    &:hover {
+                        color: $color-primary-hover;
+                    }
+                }
+            }
+        }
+
+        .main-header .header-left .header-right .icon-list .arrow-down {
+            color: $color-white !important;
+        }
+
+        .search-post svg {
+            color: $color-white;
+        }
+
+        .btn-brand-1 {
+            background-color: $color-brand-2;
+            color: $color-brand-1;
+        }
+    }
+
+    .burger-icon.burger-icon-white > span::before, .burger-icon.burger-icon-white > span::after {
+        background-color: $background-white;
+    }
+
+    .burger-icon.burger-close.burger-icon-white > span::before, .burger-icon.burger-close.burger-icon-white > span::after {
+        background-color: $color-brand-1;
+    }
+}
+
+.banner-5 {
+    position: relative;
+
+    .title-line {
+        &::before {
+            background-color: $color-gray-200;
+        }
+    }
+
+    &::before {
+        content: "";
+        height: 75%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: $color-brand-1;
+        z-index: 1;
+    }
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.box-video-banner {
+    margin-top: 45px;
+    display: inline-block;
+    width: 100%;
+
+    .image-banner-5 {
+        position: relative;
+        overflow: hidden;
+        border-radius: 16px;
+
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
+.box-info-video-banner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+    .box-inner-video-banner {
+        position: absolute;
+        top: -100px;
+        padding-top: 110px;
+        padding-right: 15px;
+
+        .card-small {
+            border: 1px solid $color-gray-100;
+            border-radius: 16px;
+            padding: 20px;
+            position: relative;
+            top: -115px;
+            background: $background-white;
+        }
+    }
+}
+
+.box-radius-16 {
+    display: inline-block;
+    width: 100%;
+    border-radius: 16px;
+    padding: 80px 120px 30px 120px;
+}
+
+.box-images-cover {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+    .box-images-inner {
+        display: inline-block;
+        position: relative;
+
+        .img-project {
+            border: 1px solid $color-gray-100;
+        }
+    }
+}
+
+.box-container {
+    padding: 0px 120px;
+}
+
+.image-6 {
+    position: absolute;
+    bottom: -10px;
+    right: -90px;
+    z-index: 3;
+    max-width: 300px;
+}
+
+.image-7 {
+    position: absolute;
+    top: 50px;
+    left: -60px;
+    z-index: 3;
+    max-width: 113px;
+}
+
+.box-business-inner {
+    padding: 0px 100px 0px 40px;
+}

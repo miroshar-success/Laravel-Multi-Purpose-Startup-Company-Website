@@ -1,0 +1,10 @@
+{
+    "id": "archielite/ai-writer",
+    "name": "AI Writer",
+    "namespace": "ArchiElite\\AiWriter\\",
+    "provider": "ArchiElite\\AiWriter\\Providers\\AiWriterServiceProvider",
+    "author": "Archi Elite",
+    "url": "https://archielite.com",
+    "version": "1.0.0",
+    "description": "Get ideas for your content and boost your content marketing efforts with our AI Writer."
+}

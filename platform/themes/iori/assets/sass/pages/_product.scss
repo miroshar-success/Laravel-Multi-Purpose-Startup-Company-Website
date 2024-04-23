@@ -1,0 +1,108 @@
+.slider-nav-thumbnails {
+    padding: 0px 55px;
+    margin-top: 10px;
+
+    .slick-prev {
+        position: absolute;
+        top: 50%;
+        margin-top: -21px;
+        left: 0px;
+        height: 42px;
+        width: 42px;
+        border-radius: 50%;
+        border: 1px solid $color-brand-1;
+        line-height: 10px;
+
+        svg {
+            color: $color-brand-1;
+        }
+
+        &:hover {
+            background-color: $color-brand-1;
+            color: $color-brand-2;
+        }
+
+        &:hover * {
+            color: $color-brand-2;
+        }
+    }
+
+    .slick-next {
+        position: absolute;
+        top: 50%;
+        margin-top: -21px;
+        right: 0px;
+        height: 42px;
+        width: 42px;
+        border-radius: 50%;
+        border: 1px solid $color-brand-1;
+        line-height: 10px;
+
+        svg {
+            color: $color-brand-1;
+        }
+
+        &:hover {
+            background-color: $color-brand-1;
+            color: $color-brand-2;
+        }
+
+        &:hover * {
+            color: $color-brand-2;
+        }
+    }
+
+    .slick-slide {
+        padding: 8px;
+
+        .item-thumb {
+            height: 141px;
+            line-height: 121px;
+            border: 1px solid $color-gray-80;
+            padding: 8px;
+            cursor: pointer;
+
+            img {
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+.box-info-collection {
+    padding: 0px 20px;
+}
+
+.table-product-info {
+    border: 1px solid $color-gray-80;
+
+    tr {
+        th, td {
+            border: 1px solid $color-gray-80;
+            padding: 10px 30px;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: $color-gray-50;
+            font-size: 16px;
+            line-height: 24px;
+            color: $color-gray-900;
+            width: 45%;
+        }
+
+        td {
+            background-color: $color-white;
+            font-size: 16px;
+            line-height: 24px;
+            color: $color-gray-300;
+            width: 55%;
+        }
+    }
+}
+
+.box-info-product {
+    padding: 33px 40px;
+    border: 1px solid $color-gray-80;
+}

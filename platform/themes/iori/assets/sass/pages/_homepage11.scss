@@ -1,0 +1,135 @@
+.banner-abs {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    width: 100%;
+
+    .w-50 {
+        max-width: 119px;
+    }
+}
+
+.box-info-banner11 {
+    background-color: $background-white;
+    padding: 80px 50px;
+}
+
+.box-banner-home11 {
+    position: relative;
+
+    .box-swiper .swiper-container {
+        padding-bottom: 0px;
+    }
+}
+
+.swiper-pagination-group-11 {
+    position: absolute;
+    right: 79px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 17px !important;
+    left: auto !important;
+    text-align: center;
+    height: auto !important;
+    bottom: auto !important;
+
+    &.swiper-pagination .swiper-pagination-bullet {
+        background-color: $color-gray-60;
+        width: 12px;
+        height: 12px;
+        margin: 2px 0px;
+        vertical-align: middle;
+    }
+
+    &.swiper-pagination .swiper-pagination-bullet-active {
+        background-color: $color-brand-2;
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        margin: 2px 0px;
+    }
+}
+
+.box-why-trusted-11 {
+    padding: 90px 0px;
+}
+
+.card-offer-2 {
+    border: 1px solid $color-white;
+    background-color: $color-brand-2;
+    border-radius: 16px;
+
+    &:hover {
+        border: 1px solid $color-gray-100;
+        background-color: $color-gray-60;
+        box-shadow: none;
+    }
+
+    .card-image {
+        height: auto;
+
+        img {
+            max-height: 57px;
+        }
+    }
+}
+
+.list-partners-6 {
+    display: flex;
+    align-content: space-between;
+
+    li {
+        width: 16.66%;
+        padding: 0px;
+        text-align: left;
+
+        img {
+            max-height: 52px;
+        }
+
+        &:last-child {
+            text-align: right;
+        }
+    }
+}
+
+.bd-rd0 {
+    border-radius: 0px !important;
+}
+
+.pl-mb-0 {
+    padding-left: 0px !important;
+}
+
+.pr-mb-0 {
+    padding-right: 0px !important;
+}
+
+.box-cover-video-convert {
+    background-image: url(../imgs/page/homepage1/finger-2.png);
+    background-repeat: no-repeat;
+    background-position: left -20px bottom;
+
+    .box-info-video {
+        padding-left: 80px;
+        padding-right: 50px;
+    }
+}
+
+.banner-11 {
+    display: block !important;
+
+    .swiper-slide {
+        > img {
+            display: block;
+        }
+    }
+}
+
+.banner-slide-11 {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 780px;
+}

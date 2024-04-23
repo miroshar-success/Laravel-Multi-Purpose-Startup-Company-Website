@@ -1,0 +1,204 @@
+.box-banner-service {
+    padding: 30px 30px 30px 0px;
+}
+
+.box-banner-abs {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.box-button-slider-bottom {
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+
+    .swiper-button-prev-group-4 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        display: inline-block;
+        background-image: none;
+        border: 1px solid $color-brand-1;
+        height: 42px;
+        width: 42px;
+        border-radius: 50%;
+        position: relative;
+        margin: 0px 7px;
+
+        svg {
+            color: $color-brand-1;
+            height: 16px;
+            position: absolute;
+            top: 50%;
+            left: 0px;
+            right: 0px;
+            margin: auto;
+            transform: translateY(-50%);
+        }
+
+        &:hover {
+            background-color: $color-brand-1;
+
+            * {
+                color: $color-white;
+            }
+        }
+    }
+
+    .swiper-button-next-group-4 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        display: inline-block;
+        background-image: none;
+        border: 1px solid $color-brand-1;
+        height: 42px;
+        width: 42px;
+        position: relative;
+        border-radius: 50%;
+        margin: 0px 5px;
+
+        svg {
+            color: $color-brand-1;
+            height: 16px;
+            position: absolute;
+            top: 50%;
+            left: 0px;
+            right: 0px;
+            margin: auto;
+            transform: translateY(-50%);
+        }
+
+        &:hover {
+            background-color: $color-brand-1;
+
+            * {
+                color: $color-white;
+            }
+        }
+    }
+}
+
+.head-bg-brand-2 {
+    .card-offer-style-3 .card-head {
+        background-color: $color-brand-2;
+    }
+}
+
+.head-bg-2 {
+    .card-offer-style-3 .card-head {
+        background-color: $background-bg-2;
+    }
+}
+
+.head-bg-5 {
+    .card-offer-style-3 .card-head {
+        background-color: $background-bg-5;
+    }
+}
+
+.head-bg-1 {
+    .card-offer-style-3 .card-head {
+        background-color: $background-bg-1;
+    }
+}
+
+.head-bg-2 {
+    .card-offer-style-3 .card-head {
+        background-color: $background-bg-2;
+    }
+}
+
+.head-bg-3 {
+    .card-offer-style-3 .card-head {
+        background-color: $background-bg-3;
+    }
+}
+
+.head-bg-4 {
+    .card-offer-style-3 .card-head {
+        background-color: $background-bg-4;
+    }
+}
+
+.head-bg-7 {
+    .card-offer-style-3 .card-head {
+        background-color: $background-bg-7;
+    }
+}
+
+.box-business-rd {
+    border-radius: 8px;
+    padding: 30px;
+    border: 1px solid $color-gray-80;
+}
+
+.box-business-service {
+    position: relative;
+    min-height: 654px;
+    width: 100%;
+    background: url(../imgs/page/service/finger.png) no-repeat center;
+
+    .box-number-1 {
+        position: absolute;
+        top: 20%;
+        max-width: 125px;
+        left: 35%;
+        z-index: 12;
+
+        .cardNumber {
+            padding: 14px 20px;
+        }
+    }
+
+    .box-image-1 {
+        position: absolute;
+        top: 280px;
+        left: 86px;
+        z-index: 3;
+
+        img {
+            width: 120px;
+        }
+    }
+
+    .box-image-2 {
+        position: absolute;
+        top: 420px;
+        left: 206px;
+        z-index: 2;
+
+        img {
+            height: 240px;
+        }
+    }
+
+    .box-image-3 {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+
+        img {
+            height: 400px;
+        }
+
+        .cardNumber {
+            margin-bottom: 0px;
+            bottom: 20px;
+            left: 15px;
+            right: 15px;
+            position: absolute;
+        }
+    }
+
+    .cardNumber {
+        border: 1px solid $color-gray-80;
+        padding: 18px 30px;
+        box-shadow: $box-shadow-1;
+    }
+}

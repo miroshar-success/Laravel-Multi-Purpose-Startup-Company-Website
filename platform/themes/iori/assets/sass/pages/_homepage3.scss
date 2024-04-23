@@ -1,0 +1,108 @@
+.line-48 {
+    padding-left: 58px;
+
+    &::before {
+        width: 48px;
+    }
+}
+
+.card-no-border {
+    .card-we-do {
+        border: 0px;
+        padding: 20px 0px;
+    }
+
+    .card-we-do .card-image {
+        max-width: 69px;
+        margin-right: 20px;
+    }
+}
+
+.box-video-business {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0px -10px;
+
+    .item-video {
+        width: 56.7%;
+        position: relative;
+        padding: 0px 10px;
+    }
+
+    .box-image-right {
+        width: 43.3%;
+        padding: 0px 10px;
+    }
+}
+
+.box-create-account {
+    border-radius: 16px;
+    padding: 60px;
+    background-color: $background-bg-7;
+    background-image: url(../imgs/page/homepage3/finger.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+
+    .cardNumber {
+        position: absolute;
+        bottom: 20px;
+        padding: 40px 50px;
+        right: 10px;
+        background-color: $background-white !important;
+        box-shadow: $box-shadow-1;
+        border: 1px solid $color-brand-3;
+        z-index: 3;
+    }
+}
+
+.box-image-bg-60 {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: $color-gray-60;
+    display: inline-block;
+    margin-bottom: 5px;
+
+    img {
+        display: block;
+    }
+}
+
+.box-image-account {
+    position: relative;
+    max-width: 80%;
+
+    &::before {
+        position: absolute;
+        top: 7px;
+        left: 7px;
+        border-radius: 8px;
+        z-index: 1;
+        content: "";
+        height: 100%;
+        width: 100%;
+        background-color: $background-white;
+    }
+
+    img {
+        display: block;
+        position: relative;
+        z-index: 2;
+        border-radius: 8px;
+    }
+}
+
+.bg-testimonials {
+    &::before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: url(../imgs/page/homepage3/bg-testimonials.svg) no-repeat right bottom 80px;
+        position: absolute;
+        background-size: contain;
+        z-index: 1;
+        right: 15px;
+    }
+}

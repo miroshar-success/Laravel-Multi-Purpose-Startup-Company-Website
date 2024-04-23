@@ -1,0 +1,10 @@
+{
+    "id": "archielite/career",
+    "name": "Career",
+    "namespace": "ArchiElite\\Career\\",
+    "provider": "ArchiElite\\Career\\Providers\\CareerServiceProvider",
+    "author": "Archi Elite",
+    "url": "https://archielite.com",
+    "version": "1.0.0",
+    "description": "Career plugin"
+}

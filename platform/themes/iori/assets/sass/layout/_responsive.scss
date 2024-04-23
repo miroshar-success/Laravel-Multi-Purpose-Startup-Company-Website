@@ -1,0 +1,1154 @@
+@include media-breakpoint-up(xxl) {
+}
+
+@media (max-width: 1550px) {
+
+    //max-width: 1500px
+    .bg-faqs {
+        background-size: 190px;
+    }
+    .banner-3 .image-chart {
+        right: 0px;
+    }
+    .arrow-right-banner {
+        left: calc(100% - 95px);
+    }
+    .mr-minus-85 {
+        margin-right: -46px;
+    }
+    .ml-minus-85 {
+        margin-left: -46px;
+    }
+    .box-banner-left-home7 {
+        padding-left: 46px;
+    }
+}
+
+@include media-breakpoint-down(xxl) {
+
+    //max-width: 1399.98px
+    .card-plan {
+        padding: 20px 15px;
+    }
+    .card-plan .card-image-plan .icon-plan {
+        max-width: 72px;
+        min-width: 72px;
+        margin-right: 10px;
+        height: 72px;
+        line-height: 72px;
+    }
+    .box-story-1 {
+        margin-bottom: -30px;
+    }
+    .box-banner-abs {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+    .banner-login .box-banner-abs {
+        top: auto;
+        padding: 60px 0px 60px 0px;
+        transform: none;
+    }
+    .box-steps-small {
+        padding-top: 220px;
+        padding-right: 50px;
+        padding-left: 0px;
+    }
+    .box-register {
+        padding-right: 0px;
+    }
+    .box-sale {
+        padding: 20px;
+    }
+    .box-sale .box-img-right {
+        width: 140px;
+    }
+    .box-sale .box-img-left {
+        width: 30%;
+    }
+    .box-sale.box-sale-left {
+        padding-left: 30%;
+    }
+    .box-container {
+        padding: 0px 0px;
+    }
+    .box-banner-6::before {
+        height: 520px;
+        width: 520px;
+    }
+    .image-automated {
+        margin-top: 0px;
+    }
+}
+
+@include media-breakpoint-down(xl) {
+
+    //max-width: 1199.98px
+    .header {
+        padding: 10px 0;
+
+        .header-right {
+            .btn {
+                &.btn-brand-1 {
+                    padding: 8px 16px;
+                }
+            }
+        }
+    }
+
+    .burger-icon {
+        display: inline-block;
+    }
+    .header .burger-icon {
+        display: block;
+    }
+    .header .main-header .header-left .header-right {
+        width: 100%;
+        text-align: right;
+        padding-right: 40px;
+    }
+    .header .main-header .header-left .header-nav {
+        width: 0;
+    }
+    .box-info-video {
+        padding: 10px 20px 10px 0px;
+
+        .box-button {
+            margin-top: 25px !important;
+        }
+    }
+    .box-info-video .box-button-video {
+        margin-top: 20px;
+    }
+    h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .card-plan {
+        padding: 20px;
+    }
+    .card-plan .card-image-plan .icon-plan {
+        max-width: 82px;
+        min-width: 82px;
+        margin-right: 15px;
+        height: 82px;
+        line-height: 82px;
+    }
+    .box-button.mt-65 {
+        margin-top: 25px !important;
+    }
+    .box-info-video {
+        h2 {
+            font-size: 35px;
+            line-height: 45px;
+        }
+    }
+    .box-business-service .box-image-2 {
+        left: auto;
+        right: 50px;
+    }
+    .box-business-service .box-image-1 {
+        top: 420px;
+        left: 46px;
+    }
+    .box-business-service .box-number-1 {
+        left: 0px;
+    }
+    .banner-contact {
+        padding: 60px 0px 60px 0px;
+    }
+    .box-ads-1 {
+        max-width: 100%;
+    }
+    .box-banner-shop-grid {
+        background-image: none;
+    }
+    .box-info-banner-shop-list {
+        padding: 5px 15px;
+    }
+    .box-info-banner-shop-list {
+        h2 {
+            font-size: 30px;
+            line-height: 40px;
+            margin-bottom: 10px !important;
+        }
+
+        .box-price-banner {
+            margin-bottom: 15px !important;
+        }
+
+        .box-share-banner {
+            margin-top: 30px !important;
+        }
+    }
+    .box-info-product {
+        padding: 21px 20px;
+    }
+    .table-product-info {
+        border: 1px solid $color-gray-80;
+
+        tr {
+            th, td {
+                padding: 10px 15px;
+            }
+        }
+    }
+    .box-info-answer {
+        padding: 15px 0px;
+
+        h2 {
+            font-size: 35px;
+            line-height: 45px;
+            margin-bottom: 8px !important;
+        }
+
+        .font-md {
+            margin-bottom: 10px !important;
+        }
+
+        .box-button {
+            margin-top: 15px !important;
+        }
+    }
+    .box-radius-16 {
+        padding: 50px 40px 20px 40px;
+    }
+
+    .box-radius-16.bg-7 {
+        .box-container {
+            padding-left: 30px !important;
+            padding-right: 30px !important;
+        }
+    }
+    .box-business-inner {
+        padding: 0px 20px 0px 0px;
+    }
+    .box-business-inner {
+        .mt-50 {
+            margin-top: 10px !important;
+        }
+
+        .mt-20 {
+            margin-top: 10px !important;
+        }
+
+        .list-ticks li {
+            margin-bottom: 10px;
+        }
+    }
+    .image-6 {
+        right: -40px;
+    }
+    .box-author-3 {
+        left: -210px;
+    }
+    .box-banner-left-home7 {
+        padding-right: 30px;
+    }
+    .card-review {
+        padding: 30px 30px 25px 30px;
+    }
+    .asset-1 {
+        left: 50px;
+        top: 50px;
+    }
+    .asset-2 {
+        left: 30px;
+    }
+    .asset-3 {
+        top: 50px;
+        right: 50px;
+    }
+    .asset-4 {
+        right: 50px;
+    }
+    .asset-5 {
+        top: 550px;
+        left: 230px;
+    }
+    .box-tab-32 {
+        padding: 25px 35px;
+    }
+    .box-cover-video-convert .box-info-video {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@include media-breakpoint-down(lg) {
+
+    //max-width: 991.98px
+    .box-container-sw {
+        .box-swiper {
+            padding-left: 30px;
+        }
+
+        .box-button-slider {
+            left: 30px;
+        }
+    }
+    .footer .width-20, .footer .width-16 {
+        width: 50%;
+    }
+    .footer .width-23 {
+        width: 100%;
+    }
+    .box-info-video {
+        padding: 20px 20px;
+    }
+    .box-cover-video-revert .box-info-video {
+        padding: 35px 20px 30px 20px;
+    }
+    .mw-80 {
+        margin-bottom: 30px;
+    }
+    .mw-80 .image-4 {
+        right: -50px;
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .box-images-project {
+        padding-right: 0px;
+        margin-bottom: 50px;
+    }
+    .box-newsletter .box-image-newsletter {
+        margin-bottom: 40px;
+    }
+    .footer .width-20 {
+        margin-bottom: 20px;
+    }
+    .footer .width-16 {
+        margin-bottom: 20px;
+    }
+    .box-signup {
+        margin: 40px auto 40px auto;
+        max-width: 100%;
+    }
+    .list-partners-left li {
+        width: 16.66%;
+    }
+    .box-story-1 {
+        margin-bottom: -30px;
+    }
+    .box-list-core-value {
+        margin-top: 20px;
+    }
+    .box-list-numbers {
+        flex-wrap: wrap;
+    }
+    .box-radius-border {
+        padding: 30px 20px;
+
+        h2 {
+            font-size: 26px;
+            line-height: 36px;
+        }
+
+        .font-lg {
+            line-height: 18px;
+            font-size: 14px;
+        }
+    }
+    .box-business-service .box-image-1 {
+        left: 15%;
+    }
+    .box-business-service .box-number-1 {
+        left: 15%;
+    }
+    .box-business-service {
+        margin: 50px 0px 30px 0px;
+    }
+    .box-detail-content {
+        padding: 40px 20px 10px 20px;
+    }
+    .box-ads-1 {
+        background-size: auto 70%;
+    }
+    .sidebar-author {
+        margin-top: 60px;
+        padding-left: 0px;
+    }
+    .box-page-register::before {
+        width: 100%;
+    }
+    .box-steps-small {
+        padding-top: 50px;
+    }
+    .box-register {
+        padding-top: 50px;
+    }
+    .box-sale .box-img-right {
+        width: 120px;
+    }
+    .box-sale .box-img-left {
+        bottom: auto;
+        top: 19%;
+        transform: translateY(-20%);
+    }
+    .banner-shop-grid {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .box-banner-shop-grid::before {
+        width: 249px;
+        height: 247px;
+    }
+    .box-info-banner-shop-list {
+        padding: 25px 25px;
+    }
+    .box-info-answer {
+        padding: 15px 20px;
+    }
+    .box-bg-term {
+        height: 290px;
+        background-size: 140px;
+
+        &:before {
+            height: 200px;
+            width: 146px;
+            bottom: -80px;
+        }
+    }
+    .box-notify {
+        .box-swiper {
+            max-width: 90%;
+        }
+    }
+    .box-info-video-banner .box-inner-video-banner {
+        position: relative;
+        top: auto;
+        padding-top: 20PX;
+    }
+    .box-info-video-banner .box-inner-video-banner .card-small {
+        top: 20px;
+    }
+    .banner-5::before {
+        height: 42%;
+    }
+    .banner-5 .mb-100 {
+        margin-bottom: 0px !important;
+    }
+    .box-business-inner {
+        padding: 30px;
+    }
+    .image-7 {
+        left: -37px;
+        max-width: 75px;
+    }
+    .box-images-cover {
+        text-align: center;
+    }
+    .lists-logo {
+        flex-wrap: wrap;
+    }
+    .lists-logo li {
+        width: 25%;
+        margin-bottom: 20px;
+    }
+    .box-author-2, .box-author-3, .box-author-1 {
+        display: none;
+    }
+    .card-radius-32 .box-cover-pd {
+        padding: 10px;
+    }
+    .card-radius-32 .box-cover-pd-2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .box-image-4 {
+        bottom: -50px;
+        left: -20px;
+    }
+    .box-number-business {
+        top: 90px;
+        right: 70px;
+    }
+    .asset-2 {
+        top: 370px;
+        right: 10px;
+    }
+    .asset-4 {
+        top: 370px;
+        right: 20px;
+    }
+    .box-our-app {
+        padding-left: 0px;
+    }
+    .box-ticks {
+        bottom: -130px;
+    }
+    .banner-9.mb-100 {
+        margin-bottom: 150px !important;
+    }
+    .card-radius-32 {
+        .box-cover-pd-3 {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+    .box-radius-32-style-2 .arrow-down-banner {
+        left: -50px;
+    }
+    .box-radius-32-style-2 .arrow-right-banner {
+        left: -80px;
+        bottom: 50px;
+    }
+    .box-banner-home9 {
+        padding-top: 60px;
+    }
+    .box-business-tab {
+        padding: 30px 0px 0px 0px;
+    }
+    .list-buttons-circle li {
+        margin-bottom: 15px;
+    }
+    .list-buttons-circle li a {
+        font-size: 16px !important;
+        line-height: 24px !important;
+        font-weight: bold !important;
+        padding: 14px 20px !important;
+    }
+    .box-imgs-branding {
+        padding-top: 50px;
+    }
+    .box-cover-video-convert .box-info-video {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+        padding-bottom: 110px;
+        background-image: url(../imgs/page/homepage1/finger-2.png);
+        background-repeat: no-repeat;
+        background-position: left -20px bottom;
+    }
+    .list-partners-6 {
+        flex-wrap: wrap;
+
+        li {
+            padding: 10px 0px;
+            width: 33.33%;
+
+            &:nth-child(3) {
+                text-align: right;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+
+    //max-width: 767.98px
+    .mobile-header-wrapper-style {
+        .mobile-header-wrapper-inner {
+            .mobile-header-top {
+
+                .mobile-header-logo a img {
+                    max-width: 140px;
+                }
+            }
+        }
+    }
+    .image-3 {
+        left: 0px;
+        width: 100px;
+    }
+    .image-2 {
+        top: -10px;
+        right: 10px;
+        width: 75px;
+    }
+    .bg-faqs {
+        background: $color-white;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .box-trial-two .trial-col-1 {
+        width: 50%;
+    }
+    .box-trial-two .trial-col-2 {
+        width: 50%;
+    }
+    .image-4 {
+        width: 100px;
+    }
+    .list-partners li img {
+        max-height: 27px;
+    }
+    .list-partners-left li img {
+        height: auto;
+    }
+    .list-partners li {
+        min-width: 50px;
+        padding: 10px 10px;
+    }
+    .list-partners-2 li {
+        padding-left: 0px;
+    }
+    .box-radius-logo {
+        padding: 30px 15px 20px 15px;
+    }
+    .title-line {
+        padding-left: 69px;
+    }
+    .title-line::before {
+        width: 59px;
+    }
+    .menu-bottom {
+        margin-bottom: 15px;
+    }
+    .box-video-business {
+        flex-wrap: wrap;
+    }
+    .box-video-business .item-video, .box-video-business .box-image-right {
+        width: 100%;
+    }
+    .box-video-business .item-video {
+        margin-bottom: 20px;
+    }
+    .box-create-account {
+        padding: 30px;
+    }
+    .bg-testimonials {
+        .ml-20 {
+            margin-left: 0px !important;
+        }
+
+        .ml-100 {
+            margin-left: 0px !important;
+        }
+    }
+    .bg-testimonials::before {
+        right: 0px;
+    }
+    .box-newsletter.box-newsletter-2 {
+        background-image: none;
+    }
+    .arrow-right-banner, .arrow-down-banner {
+        display: none;
+    }
+    .list-partners-left li {
+        width: 20%;
+    }
+    .box-newsletter.box-newsletter-2::before {
+        right: 30px;
+    }
+    .box-business-service .box-number-1 {
+        left: 0%;
+    }
+    .box-business-service .box-image-1 {
+        left: 0px;
+    }
+    .box-business-service .box-image-2 img {
+        height: 140px;
+    }
+    .box-business-service .box-image-3 img {
+        height: auto;
+        max-height: 350px;
+    }
+    .box-business-service {
+        min-height: 524px;
+    }
+    .table-compare tbody tr td {
+        padding: 15px;
+        font-size: 14px;
+    }
+    .table-compare thead th {
+        padding: 15px;
+        font-size: 14px;
+    }
+    .box-video {
+        max-width: 100%;
+    }
+    .box-video .image-1 {
+        top: -20px;
+        left: -20px;
+        max-width: 100px;
+    }
+    .column-2 {
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+    .box-404 {
+        padding-top: 50px;
+
+        .border-bottom {
+            margin-top: 20px !important;
+        }
+    }
+    .box-banner-shop-grid::before {
+        width: 100%;
+    }
+    .box-filter-text {
+        flex-wrap: wrap;
+    }
+    .text-showing, .box-sortby {
+        width: 100%;
+        margin-right: 0px !important;
+    }
+    .text-showing {
+        margin-bottom: 10px;
+    }
+    .box-sortby {
+        place-content: flex-end;
+    }
+    .dropdown-sort .btn {
+        padding: 7px 29px 7px 10px;
+        background-position: right 7px center;
+    }
+    .btn.btn-white-circle {
+        padding: 10px 15px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .card-product.card-product-list .card-image {
+        min-width: 153px;
+        max-width: 153px;
+    }
+    .swiper-style-2 .box-button-slider-bottom .swiper-button-next-group-4, .swiper-style-2 .box-button-slider-bottom .swiper-button-prev-group-4 {
+        display: none;
+    }
+    .width-16 {
+        width: 16%;
+    }
+    .width-18 {
+        width: 24%;
+    }
+    .width-50 {
+        width: 40%;
+    }
+    .box-radius-16 {
+        padding: 40px 10px 20px 10px;
+    }
+    .image-6 {
+        right: 0px;
+    }
+    .lists-logo li {
+        width: 33.33%;
+    }
+    .mr-minus-85 {
+        margin-right: 0px;
+    }
+    .ml-minus-85 {
+        margin-left: 0px;
+    }
+    .box-banner-left-home7 {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .box-radius-32 {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .box-number-business {
+        right: -10px;
+    }
+    .asset-2 {
+        display: none;
+    }
+    .asset-4 {
+        display: none;
+    }
+    .box-radius-32-style-2 {
+        padding: 30px 15px;
+    }
+    .box-ticks {
+        bottom: auto;
+        top: 93%;
+        padding: 20px 20px 0px 20px;
+    }
+    .banner-9.mb-100 {
+        margin-bottom: 180px !important;
+    }
+    .box-tab-32 {
+        padding: 15px 15px;
+    }
+    .swiper-pagination-group-11 {
+        right: 5px;
+    }
+    .banner-slide-11 {
+        min-height: 500px;
+    }
+    .box-info-banner11 {
+        padding: 50px 40px;
+    }
+    .accordion .accordion-button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .accordionStyle2.accordion .accordion-button {
+        padding: 25px;
+    }
+    .accordionStyle2 {
+        &.accordion .accordion-body {
+            padding: 0px 25px 30px 25px;
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+
+    //max-width: 575.98px
+    .header {
+        padding: 10px 0;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+    .box-container-sw .swiper-button-next,
+    .box-container-sw .swiper-button-prev {
+        display: block;
+    }
+    .swiper-button-prev-notify {
+        right: 7px;
+        top: -15px;
+    }
+    .swiper-button-next-notify {
+        right: -11px;
+        top: -15px;
+    }
+
+    .swiper-button-next-style-2,
+    .swiper-button-prev-style-2 {
+        display: block;
+    }
+
+    h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+
+    h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .list-ticks li {
+        width: 100%;
+    }
+    .bg-plant::before {
+        display: none;
+    }
+    .box-newsletter .image-1 img {
+        width: 75px;
+    }
+    .box-radius-bottom {
+        border-bottom-left-radius: 90px;
+        border-bottom-right-radius: 90px;
+    }
+    .list-partners-left li {
+        width: 25%;
+    }
+    .box-newsletter.box-newsletter-2::after {
+        bottom: 0px;
+        left: 0px;
+        height: 35px;
+        width: 246px;
+    }
+    .box-list-numbers .item-list-number {
+        width: 33.33%;
+        margin-bottom: 30px;
+    }
+    .box-story .box-info-video {
+        padding: 10px 0px;
+    }
+    .box-video .image-1 {
+        top: -20px;
+        left: 10px;
+    }
+    .list-buttons li a {
+        padding: 7px 15px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .column-2 {
+        -moz-column-gap: 20px;
+        column-gap: 20px;
+    }
+    .box-number-business {
+        top: 50px;
+        right: 10px;
+    }
+    .asset-5 {
+        display: none;
+    }
+
+}
+
+@include media-breakpoint-down(xsm) {
+
+    //max-width: 500px
+    .footer .width-20, .footer .width-16, .footer .width-23 {
+        width: 100%;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .image-4 {
+        width: 80px;
+    }
+    .image-5 {
+        width: 60px;
+    }
+    .card-we-do .card-image {
+        max-width: 75px;
+    }
+    .box-create-account .cardNumber {
+        position: absolute;
+        bottom: 0px;
+        padding: 20px 20px;
+        right: 0px;
+
+        .card-head {
+            font-size: 50px;
+            line-height: 62px;
+        }
+    }
+    .box-image-account {
+        max-width: 90%;
+    }
+    .list-partners-left li {
+        width: 33.33%;
+    }
+    .btn-app img {
+        height: 40px;
+    }
+    .item-core {
+        flex-wrap: wrap;
+
+        .item-image {
+            max-width: 100%;
+            min-width: auto;
+            margin-right: 0px;
+            margin-bottom: 20px;
+        }
+    }
+    .box-business-service .box-number-1 {
+        top: 0%;
+    }
+    .card-product.card-product-list {
+        flex-wrap: wrap;
+    }
+    .card-product.card-product-list .card-image {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .box-count.box-count-square .deals-countdown .countdown-amount {
+        width: 65px;
+        height: 70px;
+        line-height: 45px !important;
+    }
+    .perfect-scroll {
+        padding: 0px 15px 0px 15px;
+    }
+    .item-tick.font-xl-bold {
+        line-height: 18px;
+        font-size: 14px;
+    }
+}
+
+@include media-breakpoint-down(xssm) {
+    .box-newsletter .image-1 img {
+        width: 55px;
+    }
+    .box-newsletter {
+        padding: 20px;
+    }
+    h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .bg-plan-2::before, .bg-plan-2::after {
+        width: 300px;
+        height: 300px;
+    }
+    .box-trial-two {
+        flex-wrap: wrap;
+    }
+    .box-trial-two .trial-col-1 {
+        margin-bottom: 20px;
+    }
+    .box-trial-two .trial-col-1, .box-trial-two .trial-col-2 {
+        width: 100%;
+    }
+    .btn.btn-brand-1 {
+        padding: 13px 12px;
+    }
+    .btn {
+        border-radius: 4px;
+    }
+    .list-partners-left li {
+        width: 50%;
+    }
+    .box-ads-1 {
+        padding: 15px 20px;
+    }
+    .box-sale .box-img-right {
+        width: 110px;
+    }
+    .btn.btn-play-center {
+        height: 54px;
+        width: 54px;
+    }
+    .card-marketing .card-image {
+        margin-right: 15px;
+    }
+    .join-thousands {
+        max-width: 179px;
+    }
+    .box-authors .item-author {
+        width: 40px;
+        height: 40px;
+    }
+    .box-authors .item-author img {
+        width: 40px;
+        height: 40px;
+    }
+    .box-authors .item-author .text-num-author {
+        width: 40px;
+        height: 40px;
+        line-height: 35px;
+    }
+    .box-banner-left-home7 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .asset-1 {
+        left: 20px;
+        top: 30px;
+        height: 57px;
+        width: 46px;
+    }
+    .asset-3 {
+        top: 40px;
+        right: 10px;
+        height: 57px;
+        width: 46px;
+    }
+    .box-item-comment {
+        flex-wrap: wrap;
+    }
+    .box-item-comment .image-comment {
+        margin-bottom: 20px;
+    }
+    .banner-9.mb-100 {
+        margin-bottom: 220px !important;
+    }
+    .list-buttons-circle li a {
+        font-size: 12px !important;
+        line-height: 14px !important;
+        padding: 10px 12px !important;
+    }
+    .banner-9.mb-100 {
+        margin-bottom: 130px !important;
+    }
+    .box-circle-image .box-number-business {
+        top: 180px;
+        right: 10px;
+    }
+    .box-circle-image .box-image-4 {
+        bottom: 0px;
+    }
+    .list-partners-6 {
+        flex-wrap: wrap;
+
+        li {
+            width: 50%;
+
+            &:nth-child(3n) {
+                text-align: left;
+            }
+
+            &:nth-child(2n) {
+                text-align: right;
+            }
+        }
+    }
+    .box-info-banner11 {
+        padding: 20px;
+    }
+}
+
+@include media-breakpoint-down(xxsm) {
+    .mobile-header-wrapper-style {
+        width: 310px;
+    }
+    .perfect-scroll {
+        width: 100%;
+    }
+    .card-blog-list .card-image {
+        max-width: 80px;
+        margin-left: 10px;
+    }
+    .card-testimonial-grid {
+        padding: 20px;
+    }
+    .box-list-numbers .item-list-number {
+        width: 50%;
+    }
+    .box-business-service .box-image-1 img {
+        width: 80px;
+    }
+    .box-business-service .box-image-2, .box-business-service .box-image-1 {
+        top: 370px;
+    }
+    .box-video .image-1 {
+        max-width: 70px;
+    }
+    .box-ads-1 {
+        background-size: auto 50%;
+    }
+    .box-count.box-count-square .deals-countdown .countdown-amount {
+        width: 55px;
+        height: 60px;
+        font-size: 22px !important;
+        line-height: 40px !important;
+    }
+    .nav-tabs-mobile li a {
+        padding: 10px 8px;
+    }
+    .join-thousands {
+        max-width: 140px;
+    }
+    .card-radius-32 {
+        .box-cover-pd-3 {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    .banner-9.mb-100 {
+        margin-bottom: 170px !important;
+    }
+    .item-tick.font-xl-bold {
+        line-height: 14px;
+        font-size: 12px;
+    }
+    .item-tick {
+        padding: 8px 0px 8px 38px;
+    }
+}
+
+@include media-breakpoint-up(xxl) {
+
+    //min-width: 1400px
+    .container.wide {
+        max-width: 1544px;
+    }
+}
+
+
+/*OTHER SCREEN*/
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+}

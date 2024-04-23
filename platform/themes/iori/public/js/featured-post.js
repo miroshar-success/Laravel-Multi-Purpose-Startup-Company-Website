@@ -1,0 +1,1 @@
+$((function(){"use strict";var t=$(".loading-featured-blog");$(".featured-post").on("click",".btn-category",(function(){$.ajax({url:$(this).data("action"),method:"GET",beforeSend:function(){t.show()},success:function(o){$(".box-list-blogs").html(o.data),t.hide()},complete:function(){t.hide()}})}))}));

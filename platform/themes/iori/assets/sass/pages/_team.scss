@@ -1,0 +1,107 @@
+.box-banner-team {
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+    position: relative;
+
+    .arrow-down-banner {
+        left: 33%;
+        top: 60%;
+        width: 26px;
+        height: 107px;
+        background: url(../imgs/page/team/arrow-down.png) no-repeat center;
+    }
+
+    .arrow-right-banner {
+        left: 40%;
+        width: 107px;
+        height: 26px;
+        bottom: 50px;
+        background: url(../imgs/page/team/arrow-right.png) no-repeat center;
+    }
+}
+
+.banner-col-1 {
+    width: 33.33;
+    padding: 0px 8px;
+}
+
+.banner-col-2 {
+    width: 33.33;
+    padding: 0px 8px;
+}
+
+.banner-col-3 {
+    width: 33.33;
+    padding: 0px 8px;
+}
+
+.img-banner {
+    margin-bottom: 16px;
+
+    &.hasBorder {
+        position: relative;
+
+        &::before {
+            content: "";
+            height: 100%;
+            width: 100%;
+            border: 3px solid $color-brand-3;
+            position: absolute;
+            top: 8px;
+            left: -8px;
+            z-index: 1;
+        }
+
+        img {
+            position: relative;
+            z-index: 2;
+        }
+    }
+
+    &.hasBorder2 {
+        position: relative;
+
+        &::before {
+            content: "";
+            height: 100%;
+            width: 100%;
+            border: 3px solid $color-brand-3;
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            z-index: 1;
+        }
+
+        img {
+            position: relative;
+            z-index: 2;
+        }
+    }
+}
+
+.banner-team {
+    background: url(../imgs/page/team/circle.png) no-repeat top left;
+}
+
+.box-images-team {
+    .item-video {
+        width: 55.5%;
+    }
+
+    .box-image-right {
+        width: 44.5%;
+    }
+}
+
+.list-core-value-white {
+    li {
+        .ticked {
+            background-color: $background-white !important;
+        }
+    }
+}
+
+.border-brand {
+    border: 1px solid $color-brand-1;
+}

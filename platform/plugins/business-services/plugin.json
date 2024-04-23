@@ -1,0 +1,10 @@
+{
+    "id": "botble/business-services",
+    "name": "Business Service",
+    "namespace": "Botble\\BusinessService\\",
+    "provider": "Botble\\BusinessService\\Providers\\BusinessServiceServiceProvider",
+    "author": "Botble Technologies",
+    "url": "https://botble.com",
+    "version": "1.0.0",
+    "description": "Business Service management system"
+}

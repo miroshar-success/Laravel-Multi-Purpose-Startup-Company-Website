@@ -1,0 +1,9 @@
+{
+    "id": "archielite/iori",
+    "name": "Iori",
+    "namespace": "Theme\\Iori\\",
+    "description": "Iori - Multipurpose Agency/Startup theme",
+    "author": "Archi Elite",
+    "version": "1.0.0",
+    "required_plugins": []
+}

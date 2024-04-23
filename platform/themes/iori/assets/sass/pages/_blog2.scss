@@ -1,0 +1,37 @@
+.title-line-right {
+    position: relative;
+    padding-right: 112px;
+    display: inline-block;
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 9px;
+        right: 0px;
+        height: 4px;
+        width: 102px;
+        background-color: $color-brand-2;
+    }
+
+    &.line-brand-3 {
+        &::before {
+            background-color: $color-brand-3;
+        }
+    }
+
+    &.line-brand-4 {
+        &::before {
+            background-color: $color-brand-4;
+        }
+    }
+
+    &.line-info {
+        &::before {
+            background-color: $color-info;
+        }
+    }
+}
+
+.text-none {
+    text-transform: none !important;
+}

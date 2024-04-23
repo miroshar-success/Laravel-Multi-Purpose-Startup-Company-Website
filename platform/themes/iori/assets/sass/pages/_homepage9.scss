@@ -1,0 +1,118 @@
+.box-banner-home9 {
+    background: url(../imgs/page/homepage9/bg-banner.png) no-repeat top center;
+    padding: 120px 0px 0px 0px;
+    background-size: cover;
+}
+
+.box-image-banner-9 {
+    text-align: center;
+
+    img {
+        display: block;
+        margin: auto;
+    }
+}
+
+.box-ticks {
+    width: 100%;
+    position: absolute;
+    border: 5px solid $color-brand-3;
+    border-radius: 16px;
+    padding: 45px 45px 25px 45px;
+    bottom: -70px;
+    left: 0px;
+    background-color: $background-white;
+}
+
+.item-tick {
+    display: inline-block;
+    padding: 5px 0px 5px 38px;
+}
+
+.image-automated {
+    margin-top: -20px;
+}
+
+.box-circle-image {
+    position: relative;
+
+    img {
+        position: relative;
+        z-index: 2;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        height: 87%;
+        width: 87%;
+        background: url(../imgs/page/homepage9/bg-img3.png) no-repeat right bottom;
+        background-size: contain;
+        z-index: 1;
+    }
+
+    .box-number-business {
+        top: 270px;
+        right: 70px;
+    }
+
+    .box-image-4 {
+        bottom: 10px;
+    }
+}
+
+.pager-style-2 {
+    .swiper-pagination .swiper-pagination-bullet {
+        background-color: $color-gray-80;
+    }
+
+    .swiper-pagination .swiper-pagination-bullet-active {
+        background-color: $color-brand-1;
+    }
+}
+
+.box-radius-32-style-2 {
+    border-radius: 32px;
+    padding: 70px 90px;
+    background-color: $background-bg-5;
+    border: 1px solid $color-gray-80;
+
+    .arrow-right-banner {
+        left: -70px;
+        right: auto;
+        bottom: 10px;
+    }
+
+    .arrow-down-banner {
+        left: -20px;
+    }
+}
+
+.accordionStyle2 {
+    &.accordion .accordion-collapse {
+        background-color: $background-white;
+    }
+
+    &.accordion .accordion-button {
+        padding: 41px 40px;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: $background-white;
+    }
+
+    .accordion-item {
+        background-color: $background-white;
+        box-shadow: $box-shadow-3;
+        border-radius: 16px;
+        border: 1px solid $color-gray-80;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    .accordion-button::after {
+        background-image: url(../imgs/page/homepage9/plus.png);
+    }
+}

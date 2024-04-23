@@ -1,0 +1,121 @@
+.banner-12 {
+    background-image: url("../imgs/page/homepage12/hero-bg.png");
+    background-size: cover;
+    min-height: 700px;
+    position: relative;
+
+    .asset-1 {
+        position: absolute;
+        top: 30%;
+        left: 100px;
+        width: 81px;
+        background: url(../imgs/page/homepage12/asset1.png) no-repeat center;
+        background-size: contain;
+        height: 69px;
+        left: 15%;
+    }
+
+    .asset-3 {
+        position: absolute;
+        top: 30%;
+        right: 350px;
+        height: 115px;
+        width: 38px;
+        background: url(../imgs/page/homepage12/asset3.png) no-repeat center;
+        background-size: contain;
+    }
+
+    .asset-2 {
+        position: absolute;
+        bottom: 10%;
+        left: 30%;
+        height: 49px;
+        width: 65px;
+        background: url(../imgs/page/homepage12/asset2.png) no-repeat center;
+        background-size: auto;
+        background-size: contain;
+        top: unset;
+    }
+
+    .asset-4 {
+        position: absolute;
+        top: 340px;
+        right: 100px;
+        height: 75px;
+        width: 91px;
+        background: url(../imgs/page/homepage12/asset4.png) no-repeat center;
+        background-size: contain;
+    }
+
+    .asset-5 {
+        position: absolute;
+        top: unset;
+        bottom: 25%;
+        left: unset;
+        right: 30%;
+        height: 44px;
+        width: 44px;
+        background: url(../imgs/page/homepage12/asset5.png) no-repeat center;
+        background-size: contain;
+    }
+}
+
+/*Section 2*/
+.image-slideshow {
+    height: 287px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+
+    > div {
+        height: 287px;
+        width: 3840px;
+        background-image: url(../imgs/page/homepage12/members.png);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .mover-1 {
+        animation: moveSlideshow 30s linear infinite;
+    }
+
+    .mover-2 {
+        opacity: 0;
+        transition: opacity 0.5s ease-out;
+        animation: moveSlideshow 30s linear infinite;
+    }
+}
+
+@keyframes moveSlideshow {
+    100% {
+        transform: translateX(-66.6666%);
+    }
+}
+
+/*Section 3*/
+.home12-logos {
+    background-color: $color-brand-1;
+    padding: 80px 0;
+}
+
+/*Section 4*/
+.box-right {
+    .box-image-account {
+        float: right;
+    }
+
+    .box-create-account .cardNumber {
+        right: unset;
+        left: 50px;
+    }
+}
+
+.box-create-account.bg-4 {
+    background-color: $background-bg-4;
+}
+

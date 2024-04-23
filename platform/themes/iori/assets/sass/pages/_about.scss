@@ -1,0 +1,137 @@
+.box-list-numbers {
+    display: flex;
+    width: 100%;
+    margin: 0px -10px;
+
+    .item-list-number {
+        padding: 0px 10px;
+        display: inline-block;
+        width: 20%;
+    }
+}
+
+.box-image-bg {
+    background-color: $color-gray-60;
+    border-radius: 8px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    max-width: 64px;
+    min-height: 44px;
+    line-height: 44px;
+    width: 100%;
+
+    img {
+        max-height: 61px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+}
+
+.box-radius-border {
+    border-radius: 24px;
+    box-shadow: $box-shadow-1;
+    padding: 40px 60px;
+    border: 1px solid $color-gray-80;
+}
+
+.item-core {
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+    .item-image {
+        max-width: 164px;
+        min-width: 164px;
+        width: 100%;
+        margin-right: 30px;
+
+        img {
+            border-radius: 4px;
+        }
+    }
+
+    .item-desc {
+        width: 100%;
+    }
+}
+
+.box-core-value {
+    padding-left: 80px;
+    position: relative;
+    padding-top: 15px;
+
+    .shape-left {
+        height: 107px;
+        width: 26px;
+        background: url(../imgs/page/about/arrow-down.png) no-repeat top left;
+        position: absolute;
+        top: 35px;
+        left: 30px;
+
+    }
+}
+
+.box-border-dashed {
+    border-bottom: 1px dashed $color-gray-300;
+}
+
+.list-core-value {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+    li {
+        margin-bottom: 20px;
+        padding-left: 40px;
+        position: relative;
+        // background: url(../imgs/page/about/check.svg) no-repeat top left;
+        .ticked {
+            position: absolute;
+            border-radius: 50%;
+            top: 0px;
+            left: 0px;
+            height: 27px;
+            width: 27px;
+            background: $color-gray-60 url(../imgs/page/about/tick.svg) no-repeat center;
+        }
+
+        &:last-child {
+            .box-border-dashed {
+                border-bottom: 0px;
+            }
+        }
+    }
+}
+
+.bg-core-value {
+    background-image: url(../imgs/page/about/circle.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.list-dots {
+    list-style: disc;
+    padding-left: 25px;
+
+    li {
+        color: $color-gray-400;
+    }
+}
+
+.box-story-1 {
+    margin-bottom: -70px;
+}
+
+.list-socials {
+    margin-top: 30px;
+
+    .icon-socials {
+        height: 16px;
+        width: 16px;
+    }
+}
+
+.box-list-core-value {
+    margin-top: 110px;
+}

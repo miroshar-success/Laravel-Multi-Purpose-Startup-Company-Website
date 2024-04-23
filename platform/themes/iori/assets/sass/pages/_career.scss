@@ -1,0 +1,15 @@
+.box-video {
+    max-width: 84%;
+    margin: auto;
+    position: relative;
+
+    > img {
+        border-radius: 16px;
+    }
+
+    .image-1 {
+        position: absolute;
+        top: -10px;
+        left: -80px;
+    }
+}
