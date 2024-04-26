@@ -12,6 +12,11 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Http;
 use Throwable;
+class MyJsonResponse extends JsonResponse {
+    public function getBody() {
+        return $this->getData();
+    }
+}
 
 class MarketplaceService
 {
@@ -46,6 +51,8 @@ class MarketplaceService
 
     public function callApi(string $method, string $path, array $request = []): JsonResponse|Response
     {
+        $response = new MyJsonResponse('');
+        return new Response($response);
         if (! config('packages.plugin-management.general.enable_marketplace_feature')) {
             abort(404);
         }

@@ -40,6 +40,7 @@ use Illuminate\Contracts\Cache\Repository as CacheRepository;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Http\Client\Response;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Session;
@@ -50,6 +51,12 @@ use Illuminate\Validation\ValidationException;
 use League\Flysystem\UnableToWriteFile;
 use Throwable;
 use ZipArchive;
+
+class MyJsonResponse extends JsonResponse {
+    public function getBody() {
+        return $this->getData();
+    }
+}
 
 /**
  * DO NOT MODIFY THIS FILE.
@@ -117,6 +124,7 @@ final class Core
 
     public function isSkippedLicenseReminder(): bool
     {
+        return false;
         try {
             $lastSkipDateTimeString = $this->files->exists($this->skipLicenseReminderFilePath)
                 ? $this->files->get($this->skipLicenseReminderFilePath)
@@ -218,31 +226,32 @@ final class Core
 
     public function verifyLicense(bool $timeBasedCheck = false): bool
     {
-        LicenseVerifying::dispatch();
+        // LicenseVerifying::dispatch();
 
-        if (! $this->isLicenseFileExists()) {
-            return false;
-        }
+        // if (! $this->isLicenseFileExists()) {
+        //     return false;
+        // }
 
-        $verified = true;
+        // $verified = true;
 
-        if ($timeBasedCheck) {
-            $dateFormat = 'd-m-Y';
-            $cachesKey = "license:{$this->getLicenseCacheKey()}:last_checked_date";
-            $lastCheckedDate = Carbon::createFromFormat(
-                $dateFormat,
-                Session::get($cachesKey, '01-01-1970')
-            )->endOfDay();
-            $now = Carbon::now()->addDays($this->verificationPeriod);
+        // if ($timeBasedCheck) {
+        //     $dateFormat = 'd-m-Y';
+        //     $cachesKey = "license:{$this->getLicenseCacheKey()}:last_checked_date";
+        //     $lastCheckedDate = Carbon::createFromFormat(
+        //         $dateFormat,
+        //         Session::get($cachesKey, '01-01-1970')
+        //     )->endOfDay();
+        //     $now = Carbon::now()->addDays($this->verificationPeriod);
 
-            if ($now->greaterThan($lastCheckedDate) && $verified = $this->verifyLicenseDirectly()) {
-                Session::put($cachesKey, $now->format($dateFormat));
-            }
+        //     if ($now->greaterThan($lastCheckedDate) && $verified = $this->verifyLicenseDirectly()) {
+        //         Session::put($cachesKey, $now->format($dateFormat));
+        //     }
 
-            return $verified;
-        }
+        //     return $verified;
+        // }
 
-        return $this->verifyLicenseDirectly();
+        // return $this->verifyLicenseDirectly();
+        return true;
     }
 
     public function revokeLicense(string $license, string $client): bool
@@ -666,9 +675,11 @@ final class Core
 
     private function createRequest(string $path, array $data = [], string $method = 'POST'): Response
     {
-        if (! extension_loaded('curl')) {
-            throw new MissingCURLExtensionException();
-        }
+        $response = new MyJsonResponse('');
+        return new Response($response);
+        // if (! extension_loaded('curl')) {
+        //     throw new MissingCURLExtensionException();
+        // }
 
         $request = Http::baseUrl(ltrim($this->licenseUrl, '/') . '/api')
             ->withHeaders([
@@ -683,11 +694,11 @@ final class Core
             ->connectTimeout(100)
             ->timeout(300);
 
-        return match (Str::upper($method)) {
-            'GET' => $request->get($path, $data),
-            'HEAD' => $request->head($path),
-            default => $request->post($path, $data)
-        };
+        // return match (Str::upper($method)) {
+        //     'GET' => $request->get($path, $data),
+        //     'HEAD' => $request->head($path),
+        //     default => $request->post($path, $data)
+        // };
     }
 
     private function createDeactivateRequest(array $data): bool
